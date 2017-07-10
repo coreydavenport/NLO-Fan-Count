@@ -1,0 +1,35 @@
+#navbar-primary .navbar-nav { 
+//  background: #ededed;
+  width: 100%;
+  text-align: center;
+  > li {
+    display: inline-block;
+    float: none;
+  }
+}
+
+span {
+  margin-top: 0px;
+  display: inline-block;
+
+}
+
+.fans {
+
+    -webkit-animation:spin 6s linear;
+    -moz-animation:spin 6s linear;
+    animation:spin 6s linear;
+  -webkit-animation-fill-mode: forwards;
+      -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+}
+
+@-moz-keyframes spin { 
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(180deg); } }
+@-webkit-keyframes spin { 
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(180deg); } }
+@keyframes spin { 
+  from { -webkit-transform: rotate(0deg); transform:rotate(0deg); }
+  to { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
